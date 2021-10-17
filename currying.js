@@ -1,8 +1,8 @@
 const { curry, compose, pipe } = require("rambda");
 
-const text = "You are just dummy man!";
+const text = "You are just fool man!";
 const blacklist = [
-	"dummy",
+	"fool",
 	"idiot"
 ];
 const placeholder = "@$#"
