@@ -24,5 +24,4 @@ const hideWords = map(word => includes(word, blacklist) ? placeholder : word)
 // const censured = compose(getPhrase, hideWords, getWords)(text);
 
 const censured = pipe(getWords, hideWords, getPhrase)(text);
-
 console.log(censured);
